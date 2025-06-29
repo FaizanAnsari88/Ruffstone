@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './Components/Home'
+import ProductPage from './Components/ProductPage'
+import ShowCart from './Components/ShowCart'
+import Navbar from './Components/Navbar'
+import Blogs from './Components/Blogs'
+import Contactus from './Components/Contactus'
+import Orderpage from './Components/Orderpage'
+import MyOrderpage from './Components/MyOrderpage'
+
+
 
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <BrowserRouter>
+      <Navbar/>
+     
+      <Routes>
+      
+        <Route path='/' element={<Home/>}/>
+        
+        <Route path='/Productpage/:productId' element={<ProductPage/>}></Route>
+        <Route path='/ShowCart' element={<ShowCart/>}/>
+        <Route path='/Orderpage' element={<Orderpage/>}/>
+          
+           <Route path='/blogs' element={<Blogs/>}/>
+           <Route path='/contactus' element={<Contactus/>}/>
+           <Route path='/Myorder' element={<MyOrderpage/>}/>
+           
+           
+           
+           </Routes>
+ 
+      </BrowserRouter>
+      
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

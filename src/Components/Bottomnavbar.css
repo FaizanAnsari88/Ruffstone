@@ -1,0 +1,64 @@
+.discout{
+    height: fit-content;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    width: 100%;  
+    position: sticky;
+    
+}
+.offer{
+    animation: faizan 2s infinite ease-in;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.leftdiscout{
+    color: black;
+    background-color: wheat;
+    font-size: 25px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    
+}
+@keyframes faizan {
+    0%{
+        background-color: rgb(219, 83, 83);
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color:lightgreen;
+    }
+    100%{
+        background-color: green;
+    }
+}
+.rightdiscount{
+    color: black;
+    padding-right: 25px;
+    font-weight: bold;
+    padding-right: 0px;
+       
+}
+@media only screen and (max-width: 720px){
+    
+    .leftdiscout{
+        color: black;
+        background-color: wheat;
+        font-size: 22px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+              
+    }
+
+    .rightdiscount{
+        padding-top: 5px;
+    }
+}

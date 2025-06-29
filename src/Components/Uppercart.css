@@ -1,0 +1,61 @@
+
+.midleblog{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 50px;    
+}
+.rightblog{
+    width: fit-content;
+    margin: 10px;
+
+}
+.leftblog{
+    width: 50%;
+    
+}
+
+.best5{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 720px) {
+    .midleblog{
+        display: grid;
+        justify-content: space-around;
+       margin-top: 1px; 
+        gap: 5px;    
+    
+    }
+    
+    .rightblog{
+        width: fit-content;
+        margin: 1px;
+    
+    
+    }
+    .leftblog{
+        width: 100%;
+        
+        
+    }
+    .cartmiddle{
+        display: none;
+        
+        
+    }   
+    .maincards{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .boxleftimg{
+        width: 120px;
+        height: 120px;
+    }
+  .mainbox{
+    background-color: blue;
+  }  
+}
+

@@ -1,0 +1,45 @@
+.mainslide{
+    height: 100vh;
+}
+.slide{
+       margin-top: 0px;
+       
+}
+
+
+.main{
+    width: 100%;
+    
+    /* background-image: url();
+    background-size: 100% 100%;
+    animation: faizan 8s step-start infinite;
+    border-radius: 10px; */
+}
+.slideimage{
+    width: 100%;
+    height: 100vh;
+}
+.slideimage2{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+@media only screen and (max-width: 720px){
+    .slideimage{
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-image: val ('Image/blogmidle2.jpg');
+        
+    
+    }
+    .slideimage2{
+        display: none;
+    }
+    
+}

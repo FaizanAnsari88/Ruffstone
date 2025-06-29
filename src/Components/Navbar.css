@@ -1,0 +1,28 @@
+.cart{
+    
+    background-color: red;
+display: flex;
+justify-content: end;
+}
+.Rufstone{
+    background-color: white;
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+@media only screen and (max-width: 720px){
+    .Rufstone{
+        background-color: white;
+        width: 150px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-family: monospace;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }   
+}

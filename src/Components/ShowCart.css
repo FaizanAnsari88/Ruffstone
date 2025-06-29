@@ -1,0 +1,173 @@
+.Cartshowimage{
+    width: 100px;
+    height: 100px;
+    
+}
+.card-text{
+  margin-top: 20px;
+  text-align: start;
+  
+  color: black;
+}
+.showcartupper{
+    margin-top: 20px;
+    
+}
+
+
+
+.line{
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.total{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+}
+#homepage{
+    width: auto;
+    height: fit-content;
+    background-color: rgb(198, 207, 60);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.remove{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:rgb(241, 41, 41);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+
+
+}
+.payments{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(15, 111, 255, 0.849);
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.taxes{
+    font-size: 16px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 720px) {
+    .showcartupper{
+        width: 100%;
+        
+    }
+    .table{
+        
+        background-color: aqua;
+        font-size: 12PX;
+    }
+    .line{
+        width: 100%;
+        background-color: yellow;
+        
+    }
+    
+
+.card-text{
+  margin-top: 1px;
+  text-align: start;
+  width: 100px;
+  height: 50px;
+  color: black;
+  
+}
+.Cartshowimage{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.line{
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.total{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+}
+#homepage{
+    
+    width: 100px;
+    height: fit-content;
+    background-color: rgb(198, 207, 60);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 1px;
+    padding: 5px;
+
+}
+.remove{
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    border-radius: 5px;
+    background-color:crimson;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+
+
+}
+
+.payments{
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(15, 111, 255, 0.849);
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.taxes{
+    
+    font-size: 16px;
+    color: black;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtotals{
+    
+    text-align: right;
+}
+
+
+}
+.faizanii{
+    width: 100px;
+}
+.onlyone{
+    background-color: lightgreen;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
