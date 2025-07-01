@@ -47,19 +47,19 @@ dispatch({
   return (
     <>
     
-    <div class="card">
-  <div class="row ">
-    <div class="col-md-4">
-      <img src={p.icon} class="img-fluid rounded-start" alt="..."/>
+    <div className="card">
+  <div className="row ">
+    <div className="col-md-4">
+      <img src={p.icon} className="img-fluid rounded-start" alt="..."/>
     </div>
-    <div class="col-md-8 ">
-      <div class="card-body ">
+    <div className="col-md-8 ">
+      <div className="card-body ">
         
-        <h2 class="card-text1">{p.name}</h2>
+        <h2 className="card-text1">{p.name}</h2>
         <br />
         <p>Warranty: 6 months warranty</p>
         <p>In Stock: 25 units sold this week</p>
-        <p class="card-text1"><small class="text-body-secondary">{p.paragraph}</small></p>
+        <p className="card-text1"><small className="text-body-secondary">{p.paragraph}</small></p>
         <span className='star-rating '>
                 
                 <i className="bi bi-star-fill float-start  " ></i>

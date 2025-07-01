@@ -53,7 +53,7 @@ dispatch({
     <tr className='line'>
       
       <td><img src={item.icon} className=" Cartshowimage" alt="..."/></td>
-      <td className='line'><p class="card-text">{item.name}</p>
+      <td className='line'><p className="card-text">{item.name}</p>
       <span className='star-rating '>
                 
                 <i className="bi bi-star-fill float-start star " ></i>

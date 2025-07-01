@@ -8,6 +8,7 @@ import Blogs from './Components/Blogs'
 import Contactus from './Components/Contactus'
 import Orderpage from './Components/Orderpage'
 import MyOrderpage from './Components/MyOrderpage'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 
